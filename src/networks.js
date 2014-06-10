@@ -11,6 +11,16 @@ module.exports = {
     scriptHash: 0x05,
     wif: 0x80
   },
+  scotcoin: {
+    magicPrefix: '\x18Scotcoin Signed Message:\n',
+    bip32: {
+      public: 0x03f333ad,
+      private: 0x03f420ac
+    },
+    pubKeyHash: 0x3F,
+    scriptHash: 0x44,
+    wif: 0xfa
+  },
   dogecoin: {
     magicPrefix: '\x19Dogecoin Signed Message:\n',
     bip32: {
